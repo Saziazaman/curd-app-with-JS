@@ -1,0 +1,24 @@
+
+@media only screen and (max-width: 768px) {
+
+    .container{
+        flex-direction: column;
+    }
+    textarea#input {
+        width: 100%;
+    }
+    .left{
+        margin-top: 20px;
+        width: 100%;
+    }
+    #posts{
+        width: 100%;
+    }
+    #posts > div{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+   
+  }

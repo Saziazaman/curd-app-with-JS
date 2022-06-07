@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+}
+.container{
+    background-color: white;
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    justify-content: space-between;
+}
+button{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+}
+h3{
+    padding-bottom: 10px;
+}
+.left{
+    width: 50%;
+
+}
+#posts{
+    width: 50%;
+}
+#posts > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+i{
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+}
+i.fa-solid.fa-pen-to-square {
+    background-color: blue;
+}
+i.fa-solid.fa-trash-can {
+    background-color: red;
+}
+
+
+
+
